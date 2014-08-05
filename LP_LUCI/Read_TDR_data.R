@@ -11,7 +11,7 @@ library("chron")
 library(plyr)
 library(ggplot2)
 #Change the directory workspace
-setwd("K:\\CPDiary\\Data\\Lucerne & pasture drought trial 2011-2012\\Analysis")
+setwd("C:\\GitVersionedFolders\\LP_LUCI")
 
 # Lookup of plots blocks treatments
 lookupExp = read.table("lookUp.txt", sep="\t", header=T)
